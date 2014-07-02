@@ -1,0 +1,22 @@
+venn.plot <- draw.quad.venn(
+  area1= 13647,
+  area2= 13654,
+  area3= 13717,
+  area4= 13769,
+  n12 = 13599,
+  n13 = 13608,
+  n14 = 13626,
+  n23 = 13607,
+  n24 = 13634,
+  n34 = 13704,
+  n123 = 13571,
+  n124 = 13586,
+  n134 = 13599,
+  n234 = 13598,
+  n1234 = 13563,
+  category = c("Diginorm V/O", "Raw V/O", "Diginorm tri", "Raw tri"),
+  fill = c("orange", "red", "green", "blue"),
+  cex = 2,
+  cat.cex = 1.5, 
+  margin = 0.075
+);
