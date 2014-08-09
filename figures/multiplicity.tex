@@ -8,46 +8,21 @@
 \begin{document}
 
 \begin{table}[ht]
-\renewcommand\thetable{Supplement 1}
-\caption{Assembly Statistics}
-\makebox[\linewidth]{
+\renewcommand\thetable{3}
+\caption{Kmer multiplicity}
 \centering
 \begin{tabular}{l c c c c}
 \hline\hline
-\multicolumn{1}{c}{Species} & Assembler & Mean transcript length & number of transcripts & total base pairs \\ [0.5ex] % inserts table %heading
+\multicolumn{1}{c}{Species} & Method & n = 1 &n = 2 & n \geq$ 3 \\ [0.5ex] % inserts table %heading
 \hline
-\textit{M. occulta dn}&Velvet/Oases&914 & 77,244&70,661,653\\
-M. occulta raw &Velvet/Oases&943 & 80,143&75,588,920 \\
-M. occulta dn&Trinity&971 & 100,701&97,861,812\\
-M. occulta raw&Trinity&914&87,090 & 79,672,435 \\
-M. oculata dn&Velvet/Oases&1,453 &38,258&55,625,078 \\
-M. oculata raw&Velvet/Oases&1,382 &38,748&53,581,015 \\
-M. oculata dn&Trinity&1,583&67,015 &106,141,727 \\
-M. oculata raw&Trinity&1,276 & 49,327&62,985,585 \\ [1ex]
-\hline
-\end{tabular}
-}
-\label{table:nonlin}
-\end{table}
-
-\newpage
-
-\begin{table}[ht]
-\renewcommand\thetable{Supplement 2}
-\caption{Kmer multiplicity}
-\centering
-\begin{tabular}{l c c c}
-\hline\hline
-\multicolumn{1}{c}{Species} & Assembler & Number of unique kmers & percentage \\ [0.5ex] % inserts table %heading
-\hline
-M. occulta dn&Velvet/Oases&24,078,662 & 62.0\\
-M. occulta raw &Velvet/Oases&23,640,348 & 60.6 \\
-M. occulta dn&Trinity&28,704,569 & 65.5\\
-M. occulta raw&Trinity&33,060,220 & 73.5 \\
-M. oculata dn&Velvet/Oases&21,227,171 & 66.8 \\
-M. oculata raw&Velvet/Oases&20,705,638 & 66.9 \\
-M. oculata dn&Trinity&21,574,544 & 61.2 \\
-M. oculata raw&Trinity&25,733,123 & 74.2 \\ [1ex]
+\textit{M. occulta} &DN Oases& 60.7&18.4&20.9\\
+\textit{M. occulta} &Oases& 60.3 &17.4&22.3\\
+\textit{M. occulta} &DN Trinity& 68.5&17.5&14\\
+\textit{M. occulta} &Trinity&73.5&16&10.5\\
+\textit{M. oculata} &DN Oases&65 &17.7&17.3\\
+\textit{M. oculata} &Oases& 67.1 &16.4&16.5\\
+\textit{M. oculata} &DN Trinity& 66.1 &17.3&16.6\\
+\textit{M. oculata} &Trinity& 74.2 &15&10.8\\ [1ex]
 \hline
 \end{tabular}
 \label{table:nonlin}

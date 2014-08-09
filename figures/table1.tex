@@ -1,0 +1,35 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+\begin{document}
+\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+\title{table_1}
+\author{elijahlowe }
+\date{June 2014}
+
+\begin{table}[ht]
+\caption{Read counts}
+\makebox[\linewidth]{
+\centering
+\begin{tabular}{l c c c c}
+\hline\hline
+\multicolumn{1}{c}{Sample} & Number of reads&Reads kept&Percentage kept&Accession Number \\ [0.5ex] % inserts table %heading
+\hline
+\textit{M. occulta} F+3&42,174,510&-&-&SRR1197985\\
+\textit{M. occulta} F+3.2&50,018,302&-&-&SRR1197986 \\
+\textit{M. occulta} F+4&44,948,983&-&-&SRR1199464\\
+\textit{M. occulta} F+5&53,692,296&-&-&SRR1199259\\
+\textit{M. occulta} F+6&45,782,981&-&-&SRR1199268\\
+\textbf{\textit{M. occulta} Total}&\textbf{236,617,072}&\textbf{91,316,419}&\textbf{38.6\%}&\\
+\textit{M. oculata} F+3&47,045,433&-&-&SRR1197522\\
+\textit{M. oculata} F+4&52,890,938&-&-&SRR1197965\\ 
+\textit{M. oculata} F+6&50,156,895&-&-&SRR1197972\\
+\textbf{\textit{M. oculata} Total}&\textbf{150,093,266}&\textbf{49,957,980}&\textbf{33.3\%}&\\[1ex]
+\hline
+\end{tabular}
+\label{table:nonlin}
+}
+\end{table}
+
+
+\end{document}
