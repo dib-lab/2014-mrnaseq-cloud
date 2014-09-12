@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: apalike.bst
+Database file #1: MyLibrary.bib
+Warning--empty institution in brown_reference-free_2012
+You've used 26 entries,
+            1935 wiz_defined-function locations,
+            633 strings with 9608 characters,
+and the built_in function-call counts, 12951 in all, are:
+= -- 1189
+> -- 785
+< -- 11
++ -- 294
+- -- 284
+* -- 1284
+:= -- 2294
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 272
+chr.to.int$ -- 26
+cite$ -- 27
+duplicate$ -- 361
+empty$ -- 768
+format.name$ -- 324
+if$ -- 2418
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 25
+newline$ -- 133
+num.names$ -- 78
+pop$ -- 214
+preamble$ -- 1
+purify$ -- 272
+quote$ -- 0
+skip$ -- 269
+stack$ -- 0
+substring$ -- 907
+swap$ -- 26
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 156
+warning$ -- 1
+while$ -- 88
+width$ -- 0
+write$ -- 338
+(There was 1 warning)
