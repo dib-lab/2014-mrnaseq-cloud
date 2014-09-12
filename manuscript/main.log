@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 SEP 2014 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 SEP 2014 21:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -627,14 +627,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(./main.aux
-
-LaTeX Warning: Label `fig:figure_3_mocc_mapping' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:figure_3_mocc_mapping' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -896,9 +889,12 @@ File: figure_3_mocc_mapping.pdf Graphic file (type pdf)
 <use figure_3_mocc_mapping.pdf>
 Package pdftex.def Info: figure_3_mocc_mapping.pdf used on input line 130.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
-File: figure_3_mocc_mapping.pdf Graphic file (type pdf)
- <use figure_3_mocc_mapping.pdf>
-Package pdftex.def Info: figure_3_mocc_mapping.pdf used on input line 134.
+
+<figure_3_mocu_mapping.pdf, id=48, 794.97pt x 614.295pt>
+File: figure_3_mocu_mapping.pdf Graphic file (type pdf)
+
+<use figure_3_mocu_mapping.pdf>
+Package pdftex.def Info: figure_3_mocu_mapping.pdf used on input line 134.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
  [4 <./figure_1_time_and_memory.pdf>] [5
 ./main.tex:142: Undefined control sequence.
@@ -925,14 +921,14 @@ and I'll forget about whatever was undefined.
 
  <./Table2.pdf> <./figure_2_Mocc_dist.pdf> <./figure_2_Mocu_dist.pdf> <./Table_
 3_multiplicity.pdf>]
-<figure_4_moccVsknownmolg.pdf, id=93, 794.97pt x 614.295pt>
+<figure_4_moccVsknownmolg.pdf, id=94, 794.97pt x 614.295pt>
 File: figure_4_moccVsknownmolg.pdf Graphic file (type pdf)
 
 <use figure_4_moccVsknownmolg.pdf>
 Package pdftex.def Info: figure_4_moccVsknownmolg.pdf used on input line 149.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
 
-<figure_4_mocuVsknownmolg.pdf, id=94, 794.97pt x 614.295pt>
+<figure_4_mocuVsknownmolg.pdf, id=95, 794.97pt x 614.295pt>
 File: figure_4_mocuVsknownmolg.pdf Graphic file (type pdf)
 
 <use figure_4_mocuVsknownmolg.pdf>
@@ -955,7 +951,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./main.tex:167: Undefined control sequence.
-<write> ...g:figure_3_mocc_mapping}{{\p@subfigure 
+<write> ...g:figure_3_mocu_mapping}{{\p@subfigure 
                                                   (b)}{\thepage }}
 l.167 
       
@@ -965,8 +961,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
- <./figure_3_mocc_mapping.pdf>]
-<figure_5_mocc_blast_overlap.pdf, id=105, 794.97pt x 614.295pt>
+ <./figure_3_mocc_mapping.pdf> <./figure_3_mocu_mapping.pdf>]
+<figure_5_mocc_blast_overlap.pdf, id=112, 794.97pt x 614.295pt>
 File: figure_5_mocc_blast_overlap.pdf Graphic file (type pdf)
 
 <use figure_5_mocc_blast_overlap.pdf>
@@ -974,7 +970,7 @@ Package pdftex.def Info: figure_5_mocc_blast_overlap.pdf used on input line 174
 .
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
 
-<figure_5_mocu_blast_overlap.pdf, id=106, 794.97pt x 614.295pt>
+<figure_5_mocu_blast_overlap.pdf, id=113, 794.97pt x 614.295pt>
 File: figure_5_mocu_blast_overlap.pdf Graphic file (type pdf)
 
 <use figure_5_mocu_blast_overlap.pdf>
@@ -1034,37 +1030,34 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-[10] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8904 strings out of 493117
- 130508 string characters out of 6135433
- 335682 words of memory out of 5000000
- 11862 multiletter control sequences out of 15000+600000
+ 8911 strings out of 493117
+ 130710 string characters out of 6135433
+ 335663 words of memory out of 5000000
+ 11868 multiletter control sequences out of 15000+600000
  63441 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,1410b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (10 pages, 591469 bytes).
+ 43i,11n,45p,1410b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.
+enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/
+utmri8a.pfb>
+Output written on main.pdf (10 pages, 596031 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
+ 193 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51768 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 51773 words of extra memory for PDF output out of 61914 (max. 10000000)
 
