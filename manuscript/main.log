@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 SEP 2014 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 SEP 2014 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,10 +973,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
  <./figure_3_mocc_mapping.pdf> <./figure_3_mocu_mapping.pdf>] [7
-./main.tex:200: Undefined control sequence.
+./main.tex:205: Undefined control sequence.
 <write> ...igure_4_moccVsknownmolg}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.200 
+l.205 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -984,10 +984,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:200: Undefined control sequence.
+./main.tex:205: Undefined control sequence.
 <write> ...igure_4_mocuVsknownmolg}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.200 
+l.205 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -995,14 +995,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
- <./figure_4_moccVsknownmolg.pdf> <./figure_4_mocuVsknownmolg.pdf>]
-Underfull \vbox (badness 3492) has occurred while \output is active []
-
- [8
-./main.tex:215: Undefined control sequence.
+ <./figure_4_moccVsknownmolg.pdf> <./figure_4_mocuVsknownmolg.pdf>] [8
+./main.tex:218: Undefined control sequence.
 <write> ...re_5_mocc_blast_overlap}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.215 
+l.218 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1010,10 +1007,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:215: Undefined control sequence.
+./main.tex:218: Undefined control sequence.
 <write> ...re_5_mocu_blast_overlap}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.215 
+l.218 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1026,13 +1023,13 @@ and I'll forget about whatever was undefined.
 AED: lastpage setting LastPage
 [10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8910 strings out of 493117
- 130708 string characters out of 6135433
+ 8916 strings out of 493117
+ 130759 string characters out of 6135433
  334721 words of memory out of 5000000
  11867 multiletter control sequences out of 15000+600000
- 63643 words of font info for 290 fonts, out of 8000000 for 9000
+ 63963 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,1467b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,45p,1467b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.
 enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
@@ -1048,7 +1045,7 @@ xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (10 pages, 595688 bytes).
+Output written on main.pdf (10 pages, 594977 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams

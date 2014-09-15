@@ -8,13 +8,13 @@ ocu_reads<-read.table("/Users/elijahklowe/Desktop/Currently working on/manuscrip
 
 par(mfrow=c(1,1))
 
-plot(ocu_dn_v$V1,cumsum(ocu_dn_v$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1),xlab = "kmer count", ylab = "abundance",main="M. occulta distribution",yaxt="n")
+plot(ocu_dn_v$V1,cumsum(ocu_dn_v$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1),xlab = "k-mer count", ylab = "abundance",main="M. occulta distribution",yaxt="n")
 par(new = TRUE)
 plot(ocu_raw_v$V1,cumsum(ocu_raw_v$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1), xlab = "", ylab = "",lty=2,col="blue",yaxt="n",xaxt="n")
 par(new = TRUE)
 #plot(ocu_vc_v$V1,cumsum(ocu_vc_v$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1),xlab = "", ylab = "",lty=3,col="green")
 #par(new = TRUE)
-plot(ocu_dn_t$V1,cumsum(ocu_dn_t$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1),col="green",xlab = "kmer count", ylab = "", lty=1,xaxt="n")
+plot(ocu_dn_t$V1,cumsum(ocu_dn_t$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1),col="green",xlab = "", ylab = "", lty=1,xaxt="n")
 par(new = TRUE)
 plot(ocu_raw_t$V1,cumsum(ocu_raw_t$V2)/41500000, type="l",xlim=c(0,30),ylim = c(0,1), xlab = "", ylab = "",lty=5,col="red",yaxt="n",xaxt="n")
 #par(new = TRUE)

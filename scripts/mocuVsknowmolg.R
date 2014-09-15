@@ -28,5 +28,5 @@ ggplot(p_mapped_frame,aes(x=Sample,y=Values1,fill=Sample),beside=True)+
   xlab("")+
   theme(axis.text.x = element_blank(),axis.ticks.x = element_blank(),
         text = element_text(size=18))+
-  ggtitle("Assemble metrics for M. oculata vs known Molgula neuclotides")+
+  ggtitle("assemble metrics for M. oculata vs known Molgula nucleotides")+
   geom_errorbar(aes(ymax=upper, ymin=lower), width=0.25, data=std)
