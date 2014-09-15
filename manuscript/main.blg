@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: apalike.bst
 Database file #1: MyLibrary.bib
 Warning--empty institution in brown_reference-free_2012
-You've used 27 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            640 strings with 9856 characters,
-and the built_in function-call counts, 13301 in all, are:
-= -- 1248
-> -- 798
+            636 strings with 9605 characters,
+and the built_in function-call counts, 12872 in all, are:
+= -- 1211
+> -- 765
 < -- 12
-+ -- 298
-- -- 288
-* -- 1311
-:= -- 2352
-add.period$ -- 81
-call.type$ -- 27
-change.case$ -- 279
-chr.to.int$ -- 27
-cite$ -- 28
-duplicate$ -- 375
-empty$ -- 779
-format.name$ -- 331
-if$ -- 2477
++ -- 286
+- -- 276
+* -- 1272
+:= -- 2270
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 268
+chr.to.int$ -- 26
+cite$ -- 27
+duplicate$ -- 362
+empty$ -- 759
+format.name$ -- 318
+if$ -- 2400
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 138
-num.names$ -- 81
-pop$ -- 218
+missing$ -- 25
+newline$ -- 133
+num.names$ -- 78
+pop$ -- 207
 preamble$ -- 1
-purify$ -- 279
+purify$ -- 268
 quote$ -- 0
-skip$ -- 280
+skip$ -- 270
 stack$ -- 0
-substring$ -- 923
-swap$ -- 27
+substring$ -- 911
+swap$ -- 26
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 156
 warning$ -- 1
-while$ -- 101
+while$ -- 99
 width$ -- 0
-write$ -- 351
+write$ -- 339
 (There was 1 warning)

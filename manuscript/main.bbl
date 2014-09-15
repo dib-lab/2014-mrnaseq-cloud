@@ -81,13 +81,6 @@ Parra, G., Bradnam, K., and Korf, I. (2007).
   genomes.
 \newblock {\em Bioinformatics (Oxford, England)}, 23(9):1061--1067.
 
-\bibitem[Pell et~al., 2012]{pell_scaling_2012}
-Pell, J., Hintze, A., Canino-Koning, R., Howe, A., Tiedje, J.~M., and Brown,
-  C.~T. (2012).
-\newblock Scaling metagenome sequence assembly with probabilistic de bruijn
-  graphs.
-\newblock {\em Proceedings of the National Academy of Sciences}.
-
 \bibitem[Pop, 2009]{pop_genome_2009}
 Pop, M. (2009).
 \newblock Genome assembly reborn: recent computational challenges.
