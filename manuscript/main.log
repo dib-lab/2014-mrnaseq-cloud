@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 SEP 2014 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 SEP 2014 10:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -630,19 +630,19 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 20.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -745,8 +745,8 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 18.
-LaTeX Info: Redefining \microtypecontext on input line 18.
+(lastpage)             ! on input line 20.
+LaTeX Info: Redefining \microtypecontext on input line 20.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -759,7 +759,7 @@ Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -769,10 +769,10 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 21.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 21
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 23
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -782,30 +782,30 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 21
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 23
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 21
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 23
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 21
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 23
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -814,91 +814,89 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 21.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 21.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 23.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <Table1.pdf, id=11, 427.29387pt x 153.91522pt>
 File: Table1.pdf Graphic file (type pdf)
  <use Table1.pdf>
-Package pdftex.def Info: Table1.pdf used on input line 55.
+Package pdftex.def Info: Table1.pdf used on input line 58.
 (pdftex.def)             Requested size: 427.29283pt x 153.91483pt.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 64.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 67.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 64.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 67.
  [2]
 <figure_1_time_and_memory.pdf, id=16, 578.16pt x 505.89pt>
 File: figure_1_time_and_memory.pdf Graphic file (type pdf)
 
 <use figure_1_time_and_memory.pdf>
-Package pdftex.def Info: figure_1_time_and_memory.pdf used on input line 81.
+Package pdftex.def Info: figure_1_time_and_memory.pdf used on input line 84.
 (pdftex.def)             Requested size: 289.07928pt x 252.94437pt.
-
-<Table2.pdf, id=17, 542.57625pt x 130.04636pt>
+ [3 <./Table1.pdf>]
+<Table2.pdf, id=43, 542.57625pt x 130.04636pt>
 File: Table2.pdf Graphic file (type pdf)
  <use Table2.pdf>
-Package pdftex.def Info: Table2.pdf used on input line 91.
+Package pdftex.def Info: Table2.pdf used on input line 94.
 (pdftex.def)             Requested size: 486.25761pt x 116.5485pt.
- [3 <./Table1.pdf>] <figure_2_Mocc_dist.pdf, id=44, 505.89pt x 361.35pt>
+ [4 <./figure_1_time_and_memory.pdf> <./Table2.pdf>]
+<figure_2_Mocc_dist.pdf, id=60, 505.89pt x 361.35pt>
 File: figure_2_Mocc_dist.pdf Graphic file (type pdf)
 
 <use figure_2_Mocc_dist.pdf>
-Package pdftex.def Info: figure_2_Mocc_dist.pdf used on input line 106.
+Package pdftex.def Info: figure_2_Mocc_dist.pdf used on input line 109.
 (pdftex.def)             Requested size: 194.50008pt x 138.92995pt.
 
-<figure_2_Mocu_dist.pdf, id=45, 505.89pt x 361.35pt>
+<figure_2_Mocu_dist.pdf, id=61, 505.89pt x 361.35pt>
 File: figure_2_Mocu_dist.pdf Graphic file (type pdf)
 
 <use figure_2_Mocu_dist.pdf>
-Package pdftex.def Info: figure_2_Mocu_dist.pdf used on input line 110.
+Package pdftex.def Info: figure_2_Mocu_dist.pdf used on input line 113.
 (pdftex.def)             Requested size: 194.50008pt x 138.92995pt.
 
-<Table_3_multiplicity.pdf, id=46, 244.07848pt x 145.48122pt>
+<Table_3_multiplicity.pdf, id=62, 244.07848pt x 145.48122pt>
 File: Table_3_multiplicity.pdf Graphic file (type pdf)
 
 <use Table_3_multiplicity.pdf>
-Package pdftex.def Info: Table_3_multiplicity.pdf used on input line 118.
+Package pdftex.def Info: Table_3_multiplicity.pdf used on input line 121.
 (pdftex.def)             Requested size: 194.50008pt x 115.9367pt.
 
-<figure_3_mocc_mapping.pdf, id=47, 794.97pt x 614.295pt>
+<figure_3_mocc_mapping.pdf, id=63, 794.97pt x 614.295pt>
 File: figure_3_mocc_mapping.pdf Graphic file (type pdf)
 
 <use figure_3_mocc_mapping.pdf>
-Package pdftex.def Info: figure_3_mocc_mapping.pdf used on input line 131.
+Package pdftex.def Info: figure_3_mocc_mapping.pdf used on input line 134.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
 
-<figure_3_mocu_mapping.pdf, id=48, 794.97pt x 614.295pt>
+<figure_3_mocu_mapping.pdf, id=64, 794.97pt x 614.295pt>
 File: figure_3_mocu_mapping.pdf Graphic file (type pdf)
 
 <use figure_3_mocu_mapping.pdf>
-Package pdftex.def Info: figure_3_mocu_mapping.pdf used on input line 135.
+Package pdftex.def Info: figure_3_mocu_mapping.pdf used on input line 138.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
-
-Underfull \vbox (badness 2799) has occurred while \output is active []
-
- [4 <./figure_1_time_and_memory.pdf>] [5
-./main.tex:143: Undefined control sequence.
+ [5
+./main.tex:146: Undefined control sequence.
 <write> ...{fig:figure_2_Mocc_dist}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.143 
+l.146 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -906,10 +904,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:143: Undefined control sequence.
+./main.tex:146: Undefined control sequence.
 <write> ...{fig:figure_2_Mocu_dist}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.143 
+l.146 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -917,30 +915,29 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
- <./Table2.pdf> <./figure_2_Mocc_dist.pdf> <./figure_2_Mocu_dist.pdf> <./Table_
-3_multiplicity.pdf>]
-<figure_4_moccVsknownmolg.pdf, id=94, 794.97pt x 614.295pt>
+ <./figure_2_Mocc_dist.pdf> <./figure_2_Mocu_dist.pdf> <./Table_3_multiplicity.
+pdf>] <figure_4_moccVsknownmolg.pdf, id=94, 794.97pt x 614.295pt>
 File: figure_4_moccVsknownmolg.pdf Graphic file (type pdf)
 
 <use figure_4_moccVsknownmolg.pdf>
-Package pdftex.def Info: figure_4_moccVsknownmolg.pdf used on input line 150.
+Package pdftex.def Info: figure_4_moccVsknownmolg.pdf used on input line 153.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
 
 <figure_4_mocuVsknownmolg.pdf, id=95, 794.97pt x 614.295pt>
 File: figure_4_mocuVsknownmolg.pdf Graphic file (type pdf)
 
 <use figure_4_mocuVsknownmolg.pdf>
-Package pdftex.def Info: figure_4_mocuVsknownmolg.pdf used on input line 154.
+Package pdftex.def Info: figure_4_mocuVsknownmolg.pdf used on input line 157.
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/it' tried instead on input line 166.
+(Font)              Font shape `OT1/phv/b/it' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 166.
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 169.
  [6
-./main.tex:168: Undefined control sequence.
+./main.tex:171: Undefined control sequence.
 <write> ...g:figure_3_mocc_mapping}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.168 
+l.171 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -948,10 +945,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:168: Undefined control sequence.
+./main.tex:171: Undefined control sequence.
 <write> ...g:figure_3_mocu_mapping}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.168 
+l.171 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -964,7 +961,7 @@ and I'll forget about whatever was undefined.
 File: figure_5_mocc_blast_overlap.pdf Graphic file (type pdf)
 
 <use figure_5_mocc_blast_overlap.pdf>
-Package pdftex.def Info: figure_5_mocc_blast_overlap.pdf used on input line 175
+Package pdftex.def Info: figure_5_mocc_blast_overlap.pdf used on input line 178
 .
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
 
@@ -972,14 +969,14 @@ Package pdftex.def Info: figure_5_mocc_blast_overlap.pdf used on input line 175
 File: figure_5_mocu_blast_overlap.pdf Graphic file (type pdf)
 
 <use figure_5_mocu_blast_overlap.pdf>
-Package pdftex.def Info: figure_5_mocu_blast_overlap.pdf used on input line 179
+Package pdftex.def Info: figure_5_mocu_blast_overlap.pdf used on input line 182
 .
 (pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
  [7
-./main.tex:195: Undefined control sequence.
+./main.tex:198: Undefined control sequence.
 <write> ...igure_4_moccVsknownmolg}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.195 
+l.198 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -987,10 +984,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:195: Undefined control sequence.
+./main.tex:198: Undefined control sequence.
 <write> ...igure_4_mocuVsknownmolg}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.195 
+l.198 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -999,10 +996,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
  <./figure_4_moccVsknownmolg.pdf> <./figure_4_mocuVsknownmolg.pdf>] [8
-./main.tex:209: Undefined control sequence.
+./main.tex:215: Undefined control sequence.
 <write> ...re_5_mocc_blast_overlap}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.209 
+l.215 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1010,10 +1007,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:209: Undefined control sequence.
+./main.tex:215: Undefined control sequence.
 <write> ...re_5_mocu_blast_overlap}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.209 
+l.215 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1026,13 +1023,13 @@ and I'll forget about whatever was undefined.
 AED: lastpage setting LastPage
 [10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8908 strings out of 493117
- 130735 string characters out of 6135433
- 335764 words of memory out of 5000000
+ 8913 strings out of 493117
+ 130783 string characters out of 6135433
+ 334760 words of memory out of 5000000
  11870 multiletter control sequences out of 15000+600000
- 63335 words of font info for 287 fonts, out of 8000000 for 9000
+ 63643 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,12n,45p,1410b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,45p,1467b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.
 enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
@@ -1048,7 +1045,7 @@ xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (10 pages, 595866 bytes).
+Output written on main.pdf (10 pages, 595900 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
