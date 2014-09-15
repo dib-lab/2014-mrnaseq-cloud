@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{table_1}
+\author{elijahlowe }
+\date{June 2014}
+
+\begin{document}
+
+
+\begin{table}[ht]
+\renewcommand\thetable{2}
+\caption{Assembly Statistics}
+\makebox[\linewidth]{
+\centering
+\begin{tabular}{l c c c c c}
+\hline\hline
+\multicolumn{1}{c}{Species} & Method & N50 & Mean transcripts length & Total number of transcripts & Total number of base pairs \\ [0.5ex] % inserts table %heading
+\hline
+\textit{M. occulta} &DN Oases&14,606&888&89,465&79,447,700 \\
+\textit{M. occulta} &Oases&14,492&912&89,692&81,824,388 \\
+\textit{M. occulta} &DN Trinity&14,738&978 &96,287&94,200,549 \\
+\textit{M. occulta} &Trinity& 12,300&914&87,090&79,672,435 \\
+\textit{M. oculata} &DN Oases & 7,274&1,478&39,438&58,291,461 \\ 
+\textit{M. oculata} &Oases&7,158&1,380&39,738&54,869,493 \\
+\textit{M. oculata} &DN Trinity&10,141&1,450&57,105&82,856,337\\
+\textit{M. oculata} &Trinity&8,018&1,275&49,265&62,817,433\\[1ex]
+\hline
+\end{tabular}
+}
+\label{table:nonlin}
+\end{table}
+\end{document}
