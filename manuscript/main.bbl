@@ -18,7 +18,7 @@ Grabherr, M.~G., Haas, B.~J., Yassour, M., Levin, J.~Z., Thompson, D.~a., Amit,
   Lindblad-Toh, K., Friedman, N., and Regev, A. (2011).
 \newblock Full-length transcriptome assembly from {RNA}-seq data without a
   reference genome.
-\newblock {\em Nature biotechnology}, 29(7):644–52.
+\newblock {\em Nature biotechnology}, 29(7):644--52.
 
 \bibitem[Haas et~al., 2013]{haas_novo_2013}
 Haas, B.~J., Papanicolaou, A., Yassour, M., Grabherr, M., Blood, P.~D., Bowden,
@@ -32,7 +32,7 @@ Haas, B.~J., Papanicolaou, A., Yassour, M., Grabherr, M., Blood, P.~D., Bowden,
 \bibitem[Huber et~al., 2000]{huber_evolution_2000}
 Huber, J.~L., da~Silva, K.~B., Bates, W.~R., and Swalla, B.~J. (2000).
 \newblock The evolution of anural larvae in molgulid ascidians.
-\newblock {\em Seminars in cell \& developmental biology}, 11(6):419–26.
+\newblock {\em Seminars in cell \& developmental biology}, 11(6):419--26.
 
 \bibitem[Langmead and Salzberg, 2012]{langmead_fast_2012}
 Langmead, B. and Salzberg, S.~L. (2012).
@@ -67,10 +67,10 @@ Macmanes, M.~D. (2014).
 \bibitem[Martin and Wang, 2011]{martin_next-generation_2011}
 Martin, J.~a. and Wang, Z. (2011).
 \newblock Next-generation transcriptome assembly.
-\newblock {\em Nature reviews. Genetics}, 12(10):671–82.
+\newblock {\em Nature reviews. Genetics}, 12(10):671--82.
 
-\bibitem[O’Neil and Emrich, 2013]{oneil_assessing_2013}
-O’Neil, S.~T. and Emrich, S.~J. (2013).
+\bibitem[O'Neil and Emrich, 2013]{oneil_assessing_2013}
+O'Neil, S.~T. and Emrich, S.~J. (2013).
 \newblock Assessing de novo transcriptome assembly metrics for consistency and
   utility.
 \newblock {\em {BMC} Genomics}, 14(1):465.
@@ -96,13 +96,13 @@ Pop, M. (2009).
 \bibitem[Satoh and Levine, 2005]{satoh_surfing_2005}
 Satoh, N. and Levine, M. (2005).
 \newblock Surfing with the tunicates into the post-genome era.
-\newblock {\em Genes \& development}, 19(20):2407–11.
+\newblock {\em Genes \& development}, 19(20):2407--11.
 
 \bibitem[Schulz et~al., 2012]{schulz_oases:_2012}
 Schulz, M.~H., Zerbino, D.~R., Vingron, M., and Birney, E. (2012).
 \newblock Oases: robust de novo {RNA}-seq assembly across the dynamic range of
   expression levels.
-\newblock {\em Bioinformatics (Oxford, England)}, 28(8):1086–92.
+\newblock {\em Bioinformatics (Oxford, England)}, 28(8):1086--92.
 
 \bibitem[Stach and Turbeville, 2002]{stach_phylogeny_2002}
 Stach, T. and Turbeville, J.~M. (2002).
@@ -114,13 +114,20 @@ Stach, T. and Turbeville, J.~M. (2002).
 Stapley, J., Reger, J., Feulner, P. G.~D., Smadja, C., Galindo, J., Ekblom, R.,
   Bennison, C., Ball, A.~D., Beckerman, A.~P., and Slate, J. (2010).
 \newblock Adaptation genomics: the next generation.
-\newblock {\em Trends in ecology \& evolution}, 25(12):705–12.
+\newblock {\em Trends in ecology \& evolution}, 25(12):705--12.
+
+\bibitem[Swalla and Jeffery, 1990]{swalla_interspecific_1990}
+Swalla, B.~J. and Jeffery, W.~R. (1990).
+\newblock Interspecific hybridization between an anural and urodele ascidian:
+  differential expression of urodele features suggests multiple mechanisms
+  control anural development.
+\newblock {\em Developmental biology}, 142(2):319--34.
 
 \bibitem[Swalla et~al., 1999]{swalla_multigene_1999}
 Swalla, B.~J., Just, M.~a., Pederson, E.~L., and Jeffery, W.~R. (1999).
 \newblock A multigene locus containing the manx and bobcat genes is required
   for development of chordate features in the ascidian tadpole larva.
-\newblock {\em Development (Cambridge, England)}, 126(8):1643–53.
+\newblock {\em Development (Cambridge, England)}, 126(8):1643--53.
 
 \bibitem[Van~Belleghem et~al., 2012]{van_belleghem_novo_2012}
 Van~Belleghem, S.~M., Roelofs, D., Van~Houdt, J., and Hendrickx, F. (2012).
@@ -129,11 +136,11 @@ Van~Belleghem, S.~M., Roelofs, D., Van~Houdt, J., and Hendrickx, F. (2012).
 \newblock {\em {PLoS} {ONE}}, 7(8):e42605.
 
 \bibitem[Vijay et~al., 2012]{vijay_challenges_2012}
-Vijay, N., Poelstra, J.~W., Künstner, A., and Wolf, J. B.~W. (2012).
+Vijay, N., Poelstra, J.~W., K{\"u}nstner, A., and Wolf, J. B.~W. (2012).
 \newblock Challenges and strategies in transcriptome assembly and differential
   gene expression quantification. a comprehensive in silico assessment of
   {RNA}-seq experiments.
-\newblock {\em Molecular ecology}, 46:620–634.
+\newblock {\em Molecular ecology}, 46:620--634.
 
 \bibitem[Vinson et~al., 2005]{vinson_assembly_2005}
 Vinson, J.~P., Jaffe, D.~B., O'Neill, K., Karlsson, E.~K., Stange-Thomann, N.,
@@ -152,7 +159,7 @@ Wang, Z., Gerstein, M., and Snyder, M. (2009).
 Zerbino, D.~R. and Birney, E. (2008).
 \newblock Velvet: algorithms for de novo short read assembly using de bruijn
   graphs.
-\newblock {\em Genome research}, 18(5):821–9.
+\newblock {\em Genome research}, 18(5):821--9.
 
 \bibitem[Zhang et~al., 2011]{zhang_impact_2011}
 Zhang, J., Chiodini, R., Badr, A., and Zhang, G. (2011).
