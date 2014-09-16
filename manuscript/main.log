@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 SEP 2014 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 SEP 2014 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -851,13 +851,13 @@ File: figure_1_time_and_memory.pdf Graphic file (type pdf)
 <use figure_1_time_and_memory.pdf>
 Package pdftex.def Info: figure_1_time_and_memory.pdf used on input line 84.
 (pdftex.def)             Requested size: 289.07928pt x 252.94437pt.
-
-<Table2.pdf, id=17, 542.57625pt x 130.04636pt>
+ [3 <./Table1.pdf>]
+<Table2.pdf, id=43, 542.57625pt x 130.04636pt>
 File: Table2.pdf Graphic file (type pdf)
  <use Table2.pdf>
 Package pdftex.def Info: Table2.pdf used on input line 94.
 (pdftex.def)             Requested size: 486.25761pt x 116.5485pt.
- [3 <./Table1.pdf>] [4 <./figure_1_time_and_memory.pdf> <./Table2.pdf>]
+ [4 <./figure_1_time_and_memory.pdf> <./Table2.pdf>]
 <figure_2_Mocc_dist.pdf, id=60, 505.89pt x 361.35pt>
 File: figure_2_Mocc_dist.pdf Graphic file (type pdf)
 
@@ -872,12 +872,12 @@ File: figure_2_Mocu_dist.pdf Graphic file (type pdf)
 Package pdftex.def Info: figure_2_Mocu_dist.pdf used on input line 113.
 (pdftex.def)             Requested size: 194.50008pt x 138.92995pt.
 
-<Table_3_multiplicity.pdf, id=62, 244.07848pt x 145.48122pt>
+<Table_3_multiplicity.pdf, id=62, 236.0281pt x 132.74463pt>
 File: Table_3_multiplicity.pdf Graphic file (type pdf)
 
 <use Table_3_multiplicity.pdf>
 Package pdftex.def Info: Table_3_multiplicity.pdf used on input line 121.
-(pdftex.def)             Requested size: 194.50008pt x 115.9367pt.
+(pdftex.def)             Requested size: 194.50008pt x 109.39412pt.
 
 <figure_3_mocc_mapping.pdf, id=63, 794.97pt x 614.295pt>
 File: figure_3_mocc_mapping.pdf Graphic file (type pdf)
@@ -933,50 +933,11 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/it' tried instead on input line 169.
 LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10> not available
 (Font)              Font shape `OT1/phv/b/sl' tried instead on input line 169.
-
-<figure_5_mocc_blast_overlap.pdf, id=96, 794.97pt x 614.295pt>
-File: figure_5_mocc_blast_overlap.pdf Graphic file (type pdf)
-
-<use figure_5_mocc_blast_overlap.pdf>
-Package pdftex.def Info: figure_5_mocc_blast_overlap.pdf used on input line 178
-.
-(pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
-
-<figure_5_mocu_blast_overlap.pdf, id=97, 794.97pt x 614.295pt>
-File: figure_5_mocu_blast_overlap.pdf Graphic file (type pdf)
-
-<use figure_5_mocu_blast_overlap.pdf>
-Package pdftex.def Info: figure_5_mocu_blast_overlap.pdf used on input line 182
-.
-(pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
  [6
-./main.tex:186: Undefined control sequence.
+./main.tex:171: Undefined control sequence.
 <write> ...g:figure_3_mocc_mapping}{{\p@subfigure 
                                                   (a)}{\thepage }}
-l.186 \end{figure}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:186: Undefined control sequence.
-<write> ...g:figure_3_mocu_mapping}{{\p@subfigure 
-                                                  (b)}{\thepage }}
-l.186 \end{figure}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
- <./figure_3_mocc_mapping.pdf> <./figure_3_mocu_mapping.pdf>] [7
-./main.tex:205: Undefined control sequence.
-<write> ...igure_4_moccVsknownmolg}{{\p@subfigure 
-                                                  (a)}{\thepage }}
-l.205 
+l.171 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -984,10 +945,49 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:205: Undefined control sequence.
+./main.tex:171: Undefined control sequence.
+<write> ...g:figure_3_mocu_mapping}{{\p@subfigure 
+                                                  (b)}{\thepage }}
+l.171 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+ <./figure_3_mocc_mapping.pdf> <./figure_3_mocu_mapping.pdf>]
+<figure_5_mocc_blast_overlap.pdf, id=112, 794.97pt x 614.295pt>
+File: figure_5_mocc_blast_overlap.pdf Graphic file (type pdf)
+
+<use figure_5_mocc_blast_overlap.pdf>
+Package pdftex.def Info: figure_5_mocc_blast_overlap.pdf used on input line 178
+.
+(pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
+
+<figure_5_mocu_blast_overlap.pdf, id=113, 794.97pt x 614.295pt>
+File: figure_5_mocu_blast_overlap.pdf Graphic file (type pdf)
+
+<use figure_5_mocu_blast_overlap.pdf>
+Package pdftex.def Info: figure_5_mocu_blast_overlap.pdf used on input line 182
+.
+(pdftex.def)             Requested size: 194.50008pt x 150.29268pt.
+ [7
+./main.tex:201: Undefined control sequence.
+<write> ...igure_4_moccVsknownmolg}{{\p@subfigure 
+                                                  (a)}{\thepage }}
+l.201 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:201: Undefined control sequence.
 <write> ...igure_4_mocuVsknownmolg}{{\p@subfigure 
                                                   (b)}{\thepage }}
-l.205 
+l.201 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1023,13 +1023,13 @@ and I'll forget about whatever was undefined.
 AED: lastpage setting LastPage
 [10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 8916 strings out of 493117
- 130759 string characters out of 6135433
- 334721 words of memory out of 5000000
+ 8913 strings out of 493117
+ 130735 string characters out of 6135433
+ 334728 words of memory out of 5000000
  11867 multiletter control sequences out of 15000+600000
- 63963 words of font info for 294 fonts, out of 8000000 for 9000
+ 63844 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,1467b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,45p,1467b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.
 enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
@@ -1045,7 +1045,7 @@ xmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on main.pdf (10 pages, 594977 bytes).
+Output written on main.pdf (10 pages, 595032 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
