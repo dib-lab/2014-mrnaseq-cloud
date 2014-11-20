@@ -1,4 +1,5 @@
 \documentclass[fleqn,10pt]{wlpeerj}
+\usepackage{lineno}
 \title{Evaluating a lightweight transcriptome assembly pipeline on two closely related ascidian species}
 
 
@@ -13,16 +14,18 @@
 
 \keywords{Assembly, Cloud computing, Ascidians, Next-generation sequencing}
 
+\begin{linenumbers}
 \begin{abstract}
 \textit{De novo} transcriptome sequencing and assembly for non-model organisms has become prevalent in the past decade. However, most assembly approaches are computationally expensive, and little in-depth evaluation has been done to compare \textit{de novo} approaches. We sequenced several developmental stages of two free-spawning marine species\textemdash\textit{Molgula occulta} and \textit{Molgula oculata}\textemdash assembled their transcriptomes using four different combinations of preprocessing and assembly approaches, and evaluated the quality of the assembly. We present a straightforward and reproducible mRNAseq assembly protocol that combines quality filtering, digital normalization, and assembly, together with several metrics to evaluate our \textit{de novo} assemblies. The use of digital normalization in the protocol reduces the time and memory needed to complete the assembly and makes this pipeline available to labs without large computing infrastructure. Despite varying widely in basic assembly statistics, all of the assembled transcriptomes evaluate well in metrics such as gene recovery and estimated completeness.
 \end{abstract}
-
+\end{linenumbers}
 \begin{document}
+
 
 \flushbottom
 \maketitle
 \thispagestyle{empty}
-
+\linenumbers
 \section{Introduction}
 
 
