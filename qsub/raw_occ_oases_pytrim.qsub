@@ -2,22 +2,22 @@
 
 #PBS -l walltime=168:00:00,nodes=1:ppn=8,mem=320gb
 #PBS -N raw_occ_oases
-#PBS -A ged-intel11
+#PBS -A ged
 #PBS -M elijahlowe@gmail.com
 #PBS -m abe
 
 module load screed
-module load khmer
+module load khmer/1.3
 module load oases
 module load velvet
 
 WKDR='/mnt/scratch/loweelij/mol_paper/raw_occ_oases_pytrim/'
-mkdir $WKDR
-cd $WKDR
-ln -fs /mnt/home/loweelij/occulta/round*/*[ps]e.gz .
-for i in /mnt/home/loweelij/occulta/round*/*[ps]e.gz; do gunzip -c $i > $(basename $i .gz);done
-cat *.se > single.fq
-velveth ${WKDR}output 21,37,2 -fastq -shortPaired 62GAWAAXX_3_trim.fq.pe Mocc-F3.trim.fq.pe Mocc-F4.trim.fq.pe Mocc-F5.trim.fq.pe Mocc-F6.trim.fq.pe -short single.fq
+mkdir $WKDR$(date +%Y%m%d)
+cd $WKDR$(date +%Y%m%d)
+ln -fs /mnt/scratch/loweelij/mol_paper/mocc_reads/* .
+paired=*paired*
+single=*single*
+velveth ${WKDR}output 21,37,2 -fastq -shortPaired $paired -short $single
 wait
 for((n=21;n<37;n=n+2));do velvetg ${WKDR}output_"$n" -cov_cutoff auto -exp_cov auto -read_trkg yes -scaffolding no -ins_length 250; done
 wait

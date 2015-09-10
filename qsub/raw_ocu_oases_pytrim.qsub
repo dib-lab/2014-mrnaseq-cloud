@@ -1,26 +1,25 @@
 #!/bin/bash -login
 
-#PBS -l walltime=96:00:00,nodes=1:ppn=8,mem=150gb
+#PBS -l walltime=96:00:00,nodes=1:ppn=4,mem=150gb
 #PBS -N raw_ocu_oases_pytrim
-#PBS -A ged-intel11
+#PBS -A ged
 #PBS -M elijahlowe@gmail.com
 #PBS -m abe
 
 module load screed
-module load khmer
+module load khmer/1.3
 module load oases
 module load velvet
 
 WKDR='/mnt/scratch/loweelij/mol_paper/raw_ocu_oases_pytrim/'
-mkdir $WKDR
-cd $WKDR
+mkdir $WKDR$(date +%Y%m%d)
+cd $WKDR$(date +%Y%m%d)
 ln -fs /mnt/scratch/loweelij/mol_paper/mocu_reads/* .
-for i in ~/oculata/round1/*[ps]*gz; do gunzip -c $i > $(basename $i .gz);done
 paired=*paired*
 single=*single*
 velveth ${WKDR}output 21,37,2 -fastq -shortPaired $paired -short $single
 wait
-for((n=21;n<37;n=n+2));do velvetg ${WKDR}output_"$n" -cov_cutoff auto -exp_cov auto -read_trkg yes -scaffolding no -ins_length 250; done
+for((n=21;n<37;n=n+2));do velvetg ${WKDR}output_"$n" -cov_cutoff auto -exp_cov auto -read_trkg yes -ins_length 250; done
 wait
 for((n=21;n<37;n=n+2));do oases ${WKDR}output_"$n"; done
 

@@ -10,7 +10,7 @@
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[english]{babel}
 %\RequirePackage{float}
-\usepackage{subfigure}
+%\Requirepackage{subfig}
 \RequirePackage{ifthen}
 \RequirePackage{calc}
 \AtEndOfClass{\RequirePackage{microtype}}

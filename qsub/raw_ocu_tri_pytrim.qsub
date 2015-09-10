@@ -2,19 +2,19 @@
 
 #PBS -l walltime=48:00:00,nodes=1:ppn=8,mem=32gb
 #PBS -N raw_ocu_tri_pytrim
-#PBS -A ged-intel11
+#PBS -A ged
 #PBS -M elijahlowe@gmail.com
 #PBS -m abe
 
 module load screed
-module load khmer
+module load khmer/1.3
 module load bowtie
 module load trinity
 
 WKSP='/mnt/scratch/loweelij/mol_paper/raw_ocu_tri_pytrim/'
-mkdir $WKSP
-cd $WKSP
-for i in ~/oculata/round1/*[ps]*gz; do gunzip -c $i > $(basename $i .gz);done
+mkdir $WKSP$(date +%Y%m%d)
+cd $WKSP$(date +%Y%m%d)
+ln -fs /mnt/scratch/loweelij/mol_paper/mocu_reads/* .
 for i in *paired*; do split-paired-reads.py $i;done
 wait
 cat *.1 > left.fq
