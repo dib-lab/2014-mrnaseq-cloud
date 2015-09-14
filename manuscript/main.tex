@@ -99,7 +99,7 @@ The difference in assembly time and memory between diginorm and raw reads was no
 \end{figure}
   
 \subsection{Assembly statistics varied by preprocessing approach and assembler}
-Oases run with the diginormed reads yielded fewer total transcripts than Oases run with the unnormalized reads. The \textit{M. oculata} diginorm assembly produced 300 fewer transcripts, and the \textit{M. occulta} diginorm assembly produced 227 fewer transcripts (Table~\ref{table:Table2.pdf}). Digital normalization had the opposite affect when using Trinity for assembly, increasing the total number of assembled transcripts by 7,840 for \textit{M. oculata} and 9,197 for \textit{M. occulta}.
+Oases run with the diginormed reads yielded fewer total transcripts than Oases run with the unnormalized reads. The \textit{M. oculata} diginorm assembly produced 490 fewer transcripts, and the \textit{M. occulta} diginorm assembly produced 2,899 fewer transcripts (Table~\ref{table:Table2.pdf}). Digital normalization had the opposite affect when using Trinity for assembly, increasing the total number of assembled transcripts by 17,688 for \textit{M. oculata} and 13,611 for \textit{M. occulta}.
 
 %\begin{table}[tbp]
 %\centering
@@ -131,7 +131,7 @@ Oases run with the diginormed reads yielded fewer total transcripts than Oases r
 \label{table:Table2.pdf}
 \end{table}
    
-Trinity produces 6.8k (7.6\%) more transcripts than Oases for \textit{M. occulta} using the digitally normalized reads, and a 2.6k (2.9\%) decrease in the number of transcripts using the unnormalized reads. Trinity assembled more transcripts for both \textit{M. oculata} assemblies, a 17.6k (44.8\%) increase for diginorm and a 9.5k (24\%) increase for the raw reads. 
+Trinity produces 23.5k (30.4\%) more transcripts than Oases for \textit{M. occulta} using the digitally normalized reads, and a 6.9k (8.7\%) increase in the number of transcripts using the unnormalized reads. Trinity assembled more transcripts for both \textit{M. oculata} assemblies, a 28.8k (75\%) increase for diginorm and a 10.6k (27.3\%) increase for the raw reads compared to the oases assemblies. 
 
 \subsection{Trinity assemblies include more low-abundance k-mers than Oases assemblies}
 We next examined the k-mer spectrum of the assembled transcripts using k-mer abundances from the digitally normalized reads. The k-mer spectrum is an account of the information content of the reads and can be used to evaluate the ability of the assemblers to recover low-abundance transcripts \citep{pop_genome_2009}.  We first used digital normalization to reduce the reads to a median k-mer coverage of 20, so that the k-mer frequency spectrum peaked at a coverage of 20, and then plotted a cumulative abundance plot of those k-mers shared between the normalized reads and the assemblies. The results, displayed in Figure 2, show that Trinity recovers more low-abundance k-mers.  Also note that between assemblies done with the same assemblers, the k-mer distributions were very similar, suggesting that the k-mer spectrum is reflective of the underlying graph traversal algorithm used by the assembler. In addition the Trinity assemblies included more unique k-mers %(Figure~\ref{fig:multiplicity})
