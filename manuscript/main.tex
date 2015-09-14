@@ -58,9 +58,35 @@ Low quality bases were trimmed and low quality reads were removed using quality-
 
 Digital normalization (diginorm) is a technique that down samples reads from highly abundant transcripts while retaining approximately the full sequence information content of the reads \citep{brown_reference-free_2012}. Here, for each species, reads from all stages were normalized together to build a common reference transcriptome; reads were normalized to a k-mer coverage of 20 with the k-mer size set to 20 as well.  The initial data set from \textit{M. occulta} contained 237 million reads from 5 lanes, and \textit{M. oculata} contained 150 million total reads; after digital normalization, the \textit{M. occulta} dataset was reduced to 91.6 million reads and \textit{M. oculata} was reduced to 50 million reads, a ~60\% and ~77\% reduction respectively (Table~\ref{fig:time_and_memory.pdf}).
 
-\begin{table}[!h]
+%\begin{table}[!h]
+%\centering
+%\includegraphics[scale=1.0]{Table1.pdf}
+%\caption{\textbf{Digitally normalized reads.} The number of reads sequenced before and after digital normalization is shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit{M. occulta} had approximately \mytilde237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit{M. oculata} had 150 million reads and was reduced by 77\% to \mytilde50 million reads. }
+%\label{table:Table1.pdf}
+%\end{table}
+
+\begin{table}[ht]
+\renewcommand\thetable{1}
+\caption{Read counts}
+\makebox[\linewidth]{
 \centering
-\includegraphics[scale=1.0]{Table1.pdf}
+\begin{tabular}{l c c c c}
+\hline\hline
+\multicolumn{1}{c}{Sample} & Number of reads&Reads kept&Percentage kept&Accession Number \\ [0.5ex] % inserts table %heading
+\hline
+\textit{M. occulta} F+3&42,174,510&-&-&SRR1197985\\
+\textit{M. occulta} F+3.2&50,018,302&-&-&SRR1197986 \\
+\textit{M. occulta} F+4&44,948,983&-&-&SRR1199464\\
+\textit{M. occulta} F+5&53,692,296&-&-&SRR1199259\\
+\textit{M. occulta} F+6&45,782,981&-&-&SRR1199268\\
+\textbf{\textit{M. occulta} Total}&\textbf{236,617,072}&\textbf{91,316,419}&\textbf{38.6\%}&\\
+\textit{M. oculata} F+3&47,045,433&-&-&SRR1197522\\
+\textit{M. oculata} F+4&52,890,938&-&-&SRR1197965\\ 
+\textit{M. oculata} F+6&50,156,895&-&-&SRR1197972\\
+\textbf{\textit{M. oculata} Total}&\textbf{150,093,266}&\textbf{49,957,980}&\textbf{33.3\%}&\\[1ex]
+\hline
+\end{tabular}
+}
 \caption{\textbf{Digitally normalized reads.} The number of reads sequenced before and after digital normalization is shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit{M. occulta} had approximately \mytilde237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit{M. oculata} had 150 million reads and was reduced by 77\% to \mytilde50 million reads. }
 \label{table:Table1.pdf}
 \end{table}
@@ -149,9 +175,31 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 \end{figure}
 
 
+%\begin{table}[tbp]
+%\centering
+%\includegraphics[scale=1]{Table_3_multiplicity.pdf}
+%\caption{\textbf{Multiplicity.} The k-mer multiplicity shows uniqueness of each assembly. All k-mers with a multiplicity of one are unique. Trinity has a higher percentage of unique k-mers when comparing assemblers. The unnormalized Trinity had the highest number of unique k-mers overall.}
+%\label{fig:multiplicity}
+%\end{table}
+
 \begin{table}[tbp]
+\renewcommand\thetable{3}
+\caption{K-mer multiplicity}
 \centering
-\includegraphics[scale=1]{Table_3_multiplicity.pdf}
+\begin{tabular}{l c c c c}
+\hline\hline
+\multicolumn{1}{c}{Species} & Method & n = 1 &n = 2 & n $\geq$ 3 \\ [0.5ex] % inserts table %heading
+\hline
+\textit{M. occulta} &DN Oases& 60.7&18.4&20.9\\
+\textit{M. occulta} &Oases& 60.3 &17.4&22.3\\
+\textit{M. occulta} &DN Trinity& 68.5&17.5&14\\
+\textit{M. occulta} &Trinity&73.5&16&10.5\\
+\textit{M. oculata} &DN Oases&65 &17.7&17.3\\
+\textit{M. oculata} &Oases& 67.1 &16.4&16.5\\
+\textit{M. oculata} &DN Trinity& 66.1 &17.3&16.6\\
+\textit{M. oculata} &Trinity& 74.2 &15&10.8\\ [1ex]
+\hline
+\end{tabular}
 \caption{\textbf{Multiplicity.} The k-mer multiplicity shows uniqueness of each assembly. All k-mers with a multiplicity of one are unique. Trinity has a higher percentage of unique k-mers when comparing assemblers. The unnormalized Trinity had the highest number of unique k-mers overall.}
 \label{fig:multiplicity}
 \end{table}
