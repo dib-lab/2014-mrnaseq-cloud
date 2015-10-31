@@ -1,0 +1,23 @@
+#!/bin/bash -login 
+
+#PBS -l walltime=72:00:00,nodes=1:ppn=1,mem=12gb
+#PBS -N 0-get-sra
+#PBS -A ged
+#PBS -M titus@idyll.org
+#PBS -m abe
+
+source $HOME/2014-mrnaseq-cloud/qsub/env.sh
+
+module load SRAToolkit
+module load FASTX
+
+mocc_sra='SRR1197985 SRR1197986 SRR1199464 SRR119259 SRR1199268'
+mocu_sra='SRR1197522 SRR1197965 SRR1197972'
+hyb_sra='SRR1198321 SRR1198337 SRR1198346'
+SRA_dir='ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP040/SRP040134/'
+
+mkdir $WORKDIR
+cd $WORKDIR
+
+wget -m ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP040/SRP040134/
+for i in ${SRA_dir}*/*.sra; do fastq-dump --split-files -F $i;done
