@@ -1,6 +1,6 @@
 #!/bin/bash -login 
 
-#PBS -l walltime=24:00:00,nodes=1:ppn=1,mem=12gb
+#PBS -l walltime=48:00:00,nodes=1:ppn=1,mem=12gb
 #PBS -N 1-quality-trim
 #PBS -A ged
 #PBS -M titus@idyll.org
@@ -8,8 +8,6 @@
 
 source $HOME/2014-mrnaseq-cloud/qsub/env.sh
 
-module load screed
-module load khmer
 module load FASTX
 
 mocc_sra='SRR1197985 SRR1197986 SRR1199464 SRR119259 SRR1199268'
