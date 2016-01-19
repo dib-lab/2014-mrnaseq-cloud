@@ -8,8 +8,8 @@
 
 source $HOME/2014-mrnaseq-cloud/qsub/env.sh
 
-module load screed
-module load khmer/1.3
+#module load screed
+#module load khmer/1.3
 module load bowtie
 module load trinity
 

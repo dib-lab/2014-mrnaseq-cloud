@@ -10,7 +10,7 @@ source $HOME/2014-mrnaseq-cloud/qsub/env.sh
 
 module load FASTX
 
-mocc_sra='SRR1197985 SRR1197986 SRR1199464 SRR119259 SRR1199268'
+mocc_sra='SRR1197985 SRR1197986 SRR1199464 SRR1199259 SRR1199268'
 mocu_sra='SRR1197522 SRR1197965 SRR1197972'
 hyb_sra='SRR1198321 SRR1198337 SRR1198346'
 
@@ -18,7 +18,7 @@ cd $WORKDIR
 
 for i in *_1.fastq
 do 
-    echo $i
+    echo $i $(pwd)
     java -jar ~/Trimmomatic-0.33/trimmomatic-0.33.jar PE $i ${i/_1/_2} s1_pe s1_se s2_pe s2_se ILLUMINACLIP:$HOME/Trimmomatic-0.33/adapters/TruSeq3-PE.fa:2:30:10
     interleave-reads.py s1_pe s2_pe > ${i/_1/}.pe.fq
     cat s1_se s2_se > ${i/_1/}.se.fq
@@ -44,3 +44,6 @@ mkdir mocc_reads mocu_reads hyb_reads
 for i in $mocc_sra; do mv $i*.qc.fq.[ps]e mocc_reads;done
 for i in $mocu_sra; do mv $i*.qc.fq.[ps]e mocu_reads;done
 for i in $hyb_sra; do mv $i*.qc.fq.[ps]e hyb_reads;done
+chmod a-w mocc_reads/*
+chmod a-w mocu_reads/*
+chmod a-w hyb_reads/*
