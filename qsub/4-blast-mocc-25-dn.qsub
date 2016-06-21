@@ -1,0 +1,30 @@
+#!/bin/bash -login
+
+#PBS -l walltime=4:00:00,nodes=1:ppn=4,mem=16gb
+#PBS -A ged
+#PBS -M titus@idyll.org
+#PBS -m abe
+
+set -e
+set -x
+
+module load BLAST/2.2.26
+
+source $HOME/2014-mrnaseq-cloud/qsub/env.sh
+
+OCCOCU=occ
+KSIZE=25
+RAWDN=dn
+
+WKSP=${WORKDIR}-${RAWDN}-${OCCOCU}-oases
+echo ${WKSP}
+
+TR_LOC=$HOME/transcriptomes/ciona_transcriptome.fa
+
+###
+
+cd ${WKSP}
+formatdb -i output_${KSIZE}/transcripts.fa -p F -o T
+blastall -p tblastn -a 4 -v 2 -b 2 -e 1e-6 -i $TR_LOC -d output_${KSIZE}/transcripts.fa -o ciona.x.${OCCOCU}-${RAWDN}-${KSIZE}.tblastn
+
+qstat -f ${PBS_JOBID}
