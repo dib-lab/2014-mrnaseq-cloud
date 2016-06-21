@@ -12,7 +12,7 @@ module load khmer/2.0
 source $HOME/2014-mrnaseq-cloud/qsub/env.sh
 
 h_table='mocc_hash.kh'
-WKSP=$WORKDIR-dn-occ-oases
+WKSP=$WORKDIR-dn-occ-trinity
 
 mkdir $WKSP
 cd $WKSP
