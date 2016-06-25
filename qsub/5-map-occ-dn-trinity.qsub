@@ -1,0 +1,57 @@
+#!/bin/bash -login
+
+#PBS -l walltime=24:00:00,nodes=1:ppn=8,mem=16gb
+#PBS -A ged
+#PBS -M titus@idyll.org
+#PBS -m abe
+
+set -e
+set -x
+
+module load bowtie2
+module load BEDTools
+module load SAMTools
+
+OCCOCU=occ
+RAWDN=dn
+ASSEMBLER=trinity
+
+source $HOME/2014-mrnaseq-cloud/qsub/env.sh
+WKSP=$WORKDIR-assemblies/mapping-${OCCOCU}-${RAWDN}-${ASSEMBLER}
+
+mkdir -p ${WKSP}
+cd ${WKSP}
+
+transcriptome=${WORKDIR}-assemblies/molgula-${OCCOCU}-${ASSEMBLER}-${RAWDN}-cdhit.transcripts.fa
+db=$(basename $transcriptome -cdhit.transcripts.fa)
+
+echo $transcriptome x $db
+
+echo bowtie2-build ${transcriptome} ${db}
+
+# run 'split-paired-reads' to generate .1 & .2 files
+ln -fs $WORKDIR/m${OCCOCU}_reads/*.pe.{1,2} .
+ln -fs $WORKDIR/m${OCCOCU}_reads/*.se .
+
+for i in *.pe.1
+do
+    NAME=$(basename $i .fastq.pe.qc.fq.pe.1)
+    echo bowtie2 -q -p 8 -S ${NAME}.sam -1 ${NAME}.fastq.pe.qc.fq.pe.1 -2 ${NAME}.fastq.pe.qc.fq.pe.2 -U ${NAME}.fastq.pe.qc.fq.se -x ${db}
+done
+
+
+for i in *.sam; do samtools view -bS $i > ${i/.sam/.bam}; done
+for i in *.bam; do samtools sort -n $i $i.sorted; done
+for i in *.bam.sorted.bam; do samtools index $i; done
+
+for i in *.bam.sorted.bam; do samtools flagstat $i > $i.stat; done
+
+BAMNAME=m${OCCOCU}_${ASSEMBLER}-${RAWDN}
+
+samtools merge ${BAMNAME}.bam *.bam.sorted.bam
+
+#bedtools bamtofastq -i ${BAMNAME}.bam -fq /dev/stdout -fq2 /dev/stdout > 
+#mocc_dnt.ilv.fq
+
+qstat -f ${PBS_JOBID}
+

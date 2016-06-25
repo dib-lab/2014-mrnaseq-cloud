@@ -17,10 +17,10 @@ cd $OUTDIR
 ln -fs $WORKDIR/mocc_reads/* .
 paired=*.pe
 single=*.se
-velveth ${OUTDIR}/output 21,37,2 -fastq -shortPaired $paired -short $single
-for((n=21;n<37;n=n+2));do velvetg ${OUTDIR}/output_"$n" -cov_cutoff auto -exp_cov auto -read_trkg yes -scaffolding no -ins_length 250; done
+#velveth ${OUTDIR}/output 21,37,2 -fastq -shortPaired $paired -short $single
+#for((n=21;n<37;n=n+2));do velvetg ${OUTDIR}/output_"$n" -cov_cutoff auto -exp_cov auto -read_trkg yes -scaffolding no -ins_length 250; done
 wait
-for((n=21;n<37;n=n+2));do oases ${OUTDIR}/output_"$n"; done
+for((n=35;n>25;n=n-2));do oases ${OUTDIR}/output_"$n"; done
 
 qstat -f ${PBS_JOBID}
 

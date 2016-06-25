@@ -13,7 +13,7 @@ module load BLAST/2.2.26
 source $HOME/2014-mrnaseq-cloud/qsub/env.sh
 
 OCCOCU=occ
-KSIZE=21
+KSIZE=31
 
 WKSP=${WORKDIR}-${OCCOCU}
 echo ${WKSP}
