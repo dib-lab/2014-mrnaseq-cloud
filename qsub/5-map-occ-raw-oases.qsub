@@ -13,8 +13,8 @@ module load BEDTools
 module load SAMTools
 
 OCCOCU=occ
-RAWDN=dn
-ASSEMBLER=trinity
+RAWDN=raw
+ASSEMBLER=oases
 
 source $HOME/2014-mrnaseq-cloud/qsub/env.sh
 WKSP=$WORKDIR-assemblies/mapping-${OCCOCU}-${RAWDN}-${ASSEMBLER}

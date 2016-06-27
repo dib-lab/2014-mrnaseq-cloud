@@ -12,8 +12,8 @@ module load bowtie2
 module load BEDTools
 module load SAMTools
 
-OCCOCU=occ
-RAWDN=dn
+OCCOCU=ocu
+RAWDN=raw
 ASSEMBLER=trinity
 
 source $HOME/2014-mrnaseq-cloud/qsub/env.sh
